@@ -4,12 +4,13 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 3.9"
 
 gem "webrick", "~> 1.7"
 
 group :jekyll_plugins do
     gem "jekyll-sitemap", "~> 1.4"
-    gem "jekyll-feed", "~> 0.16.0"
+    gem "jekyll-feed", "~> 0.15.1"
     gem "jekyll-seo-tag", "~> 2.7"
+    gem "github-pages", "~> 223"
 end
