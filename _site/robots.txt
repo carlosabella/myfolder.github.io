@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://carlosabella.github.io/myfolder.github.io//myfolder.github.io/sitemap.xml
