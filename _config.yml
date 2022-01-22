@@ -23,6 +23,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-#domain: carlosabella.github.io/       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-#url: https://carlosabella.github.io/myfolder.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
-#baseurl: /myfolder.github.io/      # place folder name if the site is served in a subfolder
+domain: carlosabella.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://carlosabella.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /myfolder.github.io/        # place folder name if the site is served in a subfolder
