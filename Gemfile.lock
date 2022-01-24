@@ -282,6 +282,7 @@ DEPENDENCIES
   github-pages (~> 223)
   jekyll (~> 3.9)
   jekyll-feed (~> 0.15.1)
+  jekyll-remote-theme (~> 0.4.3)
   jekyll-seo-tag (~> 2.7)
   jekyll-sitemap (~> 1.4)
   webrick (~> 1.7)

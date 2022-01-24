@@ -13,4 +13,5 @@ group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.15.1"
     gem "jekyll-seo-tag", "~> 2.7"
     gem "github-pages", "~> 223"
+    gem "jekyll-remote-theme", "~> 0.4.3"
 end
