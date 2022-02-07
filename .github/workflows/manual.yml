@@ -47,6 +47,6 @@ jobs:
       - name: commit
         run: |
           # Stage the file, commit and push
-          git add '${{ github.event.inputs.title }}.md'
+          git add _drafts/'${{ github.event.inputs.title }}.md'
           git commit -m "new draft"
           git push origin master
