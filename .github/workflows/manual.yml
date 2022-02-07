@@ -36,7 +36,7 @@ jobs:
         run: |
           mkdir _drafts
           cd _drafts
-          cat '${{ github.event.inputs.body }}' > ${{ github.event.inputs.title }}.md
+          cat '${{ github.event.inputs.body }}' > '${{ github.event.inputs.title }}.md'
 
       - name: setup git config
         run: |
@@ -47,6 +47,6 @@ jobs:
       - name: commit
         run: |
           # Stage the file, commit and push
-          git add ${{ github.event.inputs.title }}.md
+          git add '${{ github.event.inputs.title }}.md'
           git commit -m "new draft"
           git push origin master
